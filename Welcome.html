@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>BookReviews</title>
+    <style media="screen">
+      body {
+        background-image: url('5.jpg');
+        margin: 0;
+        padding: 0;
+        font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+        
+    }
+    table {
+    border-collapse: collapse;
+    }
+    #menu {
+      color: #e9ec18;
+      width: 100%;
+      text-align: center; 
+      float: left; 
+      background-color: rgb(26, 23, 23); 
+      opacity: 0.85;
+      position: fixed; 
+      top: 0px;
+    }
+    #menu td{
+      border : 3px solid black;
+    }
+
+      #books {
+        width: 90%;
+        border-spacing: 50px;
+      }
+      #DOB td {
+        margin :auto;
+      }
+      #sex td {
+        margin: auto;
+      }
+      #content {
+        background-image : url('b2.jpg');
+        color:seashell;
+        width: 1000px;
+        margin: auto;
+        margin-bottom: 100px;
+        padding: 1em;
+        background-color: #5ea0dd;
+        border-radius: 0.7em;
+        box-shadow: 2px 3px 7px 2px rgba(0,0,0,0.02);
+    }
+    #top {
+      background-image: url('fin3.jpg');
+      border-radius: 0.7em;
+      width : 1000px;
+      color:rgb(236, 223, 223);
+      text-align: center;
+      font-size: 150%;
+      font-weight: bold;
+      margin-top: 40px;
+      margin-left: 240px;
+      margin-bottom: 20px;
+      padding : 20px;
+    }
+     .m:link, .m:visited {
+       color: yellow;
+       text-decoration: none;
+     }
+     
+     .m:hover {
+        color:lavender;
+     }
+
+     #c:link, #c:visited {
+       color: seashell;
+       text-decoration: none;
+     }
+     #c:hover {
+        color :lavender;
+     }
+     
+    
+    @media (max-width: 700px) {
+        div {
+            margin: 0 auto;
+            width: auto;
+        }
+    }
+
+    </style>
+  </head>
+  <body>
+    <table id = "menu" >
+      <tbody>
+      <tr ><td><a class="m" href="">home</a></td>
+        <td><a class="m" href="">search</a></td>
+         <td><a class="m" href="">about us</a></td>
+          <td><a class="m" href="">feedback</a></td>
+           <td><a class="m" href="">store</a></td></tr>
+      </tbody>
+    </table>
+    <div id = "top">
+    <p>This is BookReviews</p>
+    <hr color="white"; width="50%";>
+    <p>Up for reading but don't know what ? PS : You're in the right plcae</p>
+    </div>
+    <div id="content" >
+      <h2 style="text-align:center; position:relative; top:-20px; ">But, What is a book review ?</h2>
+    <p><iframe width="1000" height="450" border-radius="0.5em" src="https://www.youtube.com/embed/LcKn2YKsD9Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+    <hr>
+    <h2 style="text-align:center;">Suggestions :</h2>
+    <table id="books">
+      <tbody>
+        <tr>
+          <td>
+            <p><a href=""><img src="MarkManson.jpg" height="200"></p>
+          </td>
+          <td>  
+              <p><a href=""><img src="Paulocohelo.jpg" height="200"></p>
+          </td>
+          <td>
+              <p><a href=""><img src="RobertT.K.jpg" height="200"></p>
+          </td>
+          <td>
+              <p><a href=""><img src="NicholasSparks.jpg" height="200"></p>
+          </td>
+          <td>
+              <p><a href=""><img src="Flipped.jpg" height="200"></p>
+          </td>
+            <td><p ><a id="c" href="">Show more</a></p>
+        </tr>
+      </tbody>
+    </table>
+    <hr>
+    <h2 style="text-align:center;">login here :</h2>
+    <form class="" action="index.html" method="post">
+      <ul>
+      <li >  <p > Enter accountID : <input type="text" name=""></p></li>
+    <li >  <p > Enter password  : <input type="text" name=""></p></li>
+    </ul>
+      <p style="text-align: center;"><input type="submit" value="Login"></p>
+    <hr>
+    </form>
+    <h2 style="text-align:center;">Sign Up here :</h2>
+    <form class="" action="index.html" method="post">
+    <ul>
+      <li ><p> First Name : <input type="text" name=""></p></li>
+      <li><p> Last Name : <input type="text" name=""></p></li>
+      <li ><table id="DOB"><tbody><tr>
+          <td><p >Date of birth : </p></td>
+          <td><p><select>
+          <option selected>1</option> <option>2</option> <option>3</option> <option>4</option> <option>5</option> <option>6</option> <option>7</option> <option>8</option>
+          <option>9</option> <option>10</option> <option>11</option> <option>12</option> <option>13</option> <option>14</option> <option>15</option> <option>16</option>
+          <option>17</option> <option>18</option> <option>19</option> <option>20</option> <option>21</option> <option>22</option> <option>23</option> <option>24</option>
+          <option>25</option> <option>26</option> <option>27</option> <option>28</option> <option>29</option> <option>30</option> <option>31</option>
+        </select></p></td>
+        <td><p><select>
+          <option selected>Jan</option> <option>Feb</option> <option>Mar</option> <option>Apr</option>
+          <option>May</option> <option>Jun</option> <option>Jul</option> <option>Aug</option>
+          <option>Sep</option> <option>Oct</option> <option>Nov</option> <option>Dec</option>
+        </select></p></td>
+        <td><input type="text" name="" placeholder="Year of Birth"></td>
+      </tr></tbody></table></li>
+      <li><table id="sex"><tbody><tr class="seashell">
+      <td><p >Sex : </p></td>
+      <td><p ><input type="radio" name="gen" value=""> Male</p></td>
+      <td><p ><input type="radio" name="gen" value=""> Female</p></td>
+      <td><p><input type="radio" name="gen" value=""> Others</p></td>
+      </tr></tbody><table></li>
+      <li><p> Enter your Email : <input type="text" name=""></p></li>
+      <li><p> Create password  : <input type="text" name=""></p></li>
+    </ul>
+    <p  style="text-align: center;"><input type="submit" value="Sign-Up"></p>
+    </form>
+  </div>
+  </body>
+</html>
